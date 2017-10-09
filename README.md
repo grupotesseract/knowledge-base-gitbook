@@ -1,4 +1,4 @@
-# \# Teste
+# Teste
 
 Teste
 
@@ -11,8 +11,6 @@ class User extends Model {
 
 }
 ```
-
-
 
 ```php
 class Man extends User {
