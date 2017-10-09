@@ -8,6 +8,3 @@
 - Drive: 
 
 O Acordo Rápido é um projeto...
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDk4NTA3M119
--->
