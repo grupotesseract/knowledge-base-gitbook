@@ -6,7 +6,7 @@ A filosofia do Tesseract é manter uma estrutura organizacional mais horizontal 
 
 # Ferramentas que utilizamos
 
-* Slack
+* \[Slack\]\(https://grupotesseract.slack.com\)
 * Git
 * Github
 * Trello
