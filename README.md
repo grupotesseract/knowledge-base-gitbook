@@ -1,22 +1,16 @@
-# Teste
+# Quem Somos
 
-Teste
+# Como trabalhamos
 
-## Teste
+# Ferramentas que utilizamos
 
-```php
-class User extends Model {
+Slack
 
-    use RestControllerTrait;
+Git
 
-}
-```
+Github
 
-```php
-class Man extends User {
+Trello
 
-}
-```
-
-
+Kanbanchi
 
