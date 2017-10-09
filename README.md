@@ -4,8 +4,6 @@
 
 A filosofia do Tesseract é manter uma estrutura organizacional mais horizontal possível.
 
-[Ferramentas que utilizamos](#ferramentas-que-utilizamos)
-
 # Ferramentas que utilizamos
 
 ### Slack
