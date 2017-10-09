@@ -2,15 +2,15 @@
 
 # Como trabalhamos
 
+A filosofia do Tesseract é manter uma estrutura organizacional mais horizontal possível.
+
 # Ferramentas que utilizamos
 
-Slack
+* Slack
+* Git
+* Github
+* Trello
+* Kanbanchi
 
-Git
 
-Github
-
-Trello
-
-Kanbanchi
 
