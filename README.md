@@ -11,7 +11,7 @@ O mundo de trabalho atual contém muita exploração de mão-de-obra e venda de 
 CONHEÇA todos;  
 SEJA AMIGO de todos;  
 APRENDA com todos;  
-ENSINE a todos;
+ENSINE a todos.
 
 ### Como trabalhamos
 
