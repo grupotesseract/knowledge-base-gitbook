@@ -8,6 +8,11 @@ Dessa ideia nasce o grupo Tesseract, onde cada pessoa é um vértice e não exis
 
 O mundo de trabalho atual contém muita exploração de mão-de-obra e venda de informação, contra isso elaboramos uma forma de trabalho totalmente aberta e transparente, pois acreditamos na liberdade plena. A informação acessível garante uma visão ampla de todo o processo, acelera o desenvolvimento e acrescenta conhecimento à todos os envolvidos em qualquer que seja a empreitada.
 
+CONHEÇA todos;  
+SEJA AMIGO de todos;  
+APRENDA com todos;  
+ENSINE a todos;
+
 ### Como trabalhamos
 
 A filosofia do Tesseract é manter uma estrutura organizacional horizontal...
