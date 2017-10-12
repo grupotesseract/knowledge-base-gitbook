@@ -9,6 +9,10 @@
 
 O Acordo Rápido é uma ferramenta para monitorar e recuperar créditos, originalmente desenvolvido para monitorar títulos escolares. Permite envio de SMS e registro de ligações telefônicas, assim como negociação de títulos abertos.
 
+#### Vivalá
+
+* Link: [http://vivala.com.br](http://vivala.com.br)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA4MDg3ODRdfQ==
+eyJoaXN0b3J5IjpbLTE3NDI2NDc3MTJdfQ==
 -->
