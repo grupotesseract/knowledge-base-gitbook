@@ -28,7 +28,7 @@ O Acordo Rápido é uma ferramenta para monitorar e recuperar créditos, origina
 * Link: 
 * Github: 
 * Kanban-chi: https://drive.google.com/file/d/0ByHImjXbPN_edWJoaDhGcHFXWGM/view
-* Drive: 
+* Drive: https://drive.google.com/drive/u/0/folders/0ByHImjXbPN_eUnV6aHpVRkx5OTQ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDk4MzMxXX0=
+eyJoaXN0b3J5IjpbLTE5ODk4MDc2MTJdfQ==
 -->
