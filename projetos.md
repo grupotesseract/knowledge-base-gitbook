@@ -17,6 +17,17 @@ O Acordo Rápido é uma ferramenta para monitorar e recuperar créditos, origina
 * Drive: https://drive.google.com/drive/u/0/folders/0BzOMyBo2e-pfSHVkMVY3R2Y4dHM
 
 #### Instituto Shanti
+
+* Link:
+* Github: [https://github.com/grupotesseract/instituto-shanti](https://github.com/grupotesseract/instituto-shanti)
+* Kanban-chi: 
+* Drive: 
+
+#### Seus Direitos
+
+* Link: 
+* Github: 
+* Dhttps://drive.google.com/file/d/0ByHImjXbPN_edWJoaDhGcHFXWGM/view
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0Njc5MDBdfQ==
+eyJoaXN0b3J5IjpbMTA2MDMwMDg1M119
 -->
