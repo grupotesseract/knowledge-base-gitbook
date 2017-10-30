@@ -1,3 +1,13 @@
 {
-  "plugins": ["thePlugin"]
+  "plugins": [
+    "alerts",
+    "block-align",
+    "disqus",
+    "theme-dark-blue"
+  ],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "bragasociopata"
+    }
+  }
 }
