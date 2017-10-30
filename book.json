@@ -3,6 +3,7 @@
     "alerts",
     "block-align",
     "disqus",
+    "styles-sass",
     "theme-dark-blue"
   ],
   "pluginsConfig": {
