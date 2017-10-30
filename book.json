@@ -2,13 +2,6 @@
   "plugins": [
     "alerts",
     "block-align",
-    "disqus",
     "styles-sass",
-    "theme-darkblue"
   ],
-  "pluginsConfig": {
-    "disqus": {
-      "shortName": "bragasociopata"
-    }
-  }
 }
