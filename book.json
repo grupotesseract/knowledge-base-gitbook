@@ -2,6 +2,13 @@
   "plugins": [
     "alerts",
     "block-align",
-    "styles-sass"
-  ]
+    "styles-sass",
+    "theme-bandwidth"
+  ],
+  "pluginsConfig": {
+    "theme-api": {
+      "split": true,
+      "theme": "dark"
+    }
+  }
 }
