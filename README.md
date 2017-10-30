@@ -15,5 +15,9 @@ SEJA AMIGO de todos;
 APRENDA com todos;  
 ENSINE a todos.
 
+## Começando
+
+Começando no Tesseract? Você pode seguir por esse manual.
+
 
 
