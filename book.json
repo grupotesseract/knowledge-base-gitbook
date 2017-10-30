@@ -2,6 +2,6 @@
   "plugins": [
     "alerts",
     "block-align",
-    "styles-sass",
-  ],
+    "styles-sass"
+  ]
 }
