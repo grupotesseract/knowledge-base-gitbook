@@ -4,7 +4,7 @@
     "block-align",
     "disqus",
     "styles-sass",
-    "theme-dark-blue"
+    "theme-darkblue"
   ],
   "pluginsConfig": {
     "disqus": {
