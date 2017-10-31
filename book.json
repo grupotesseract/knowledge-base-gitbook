@@ -5,7 +5,6 @@
     "block-align",
     "include-codeblock",
     "styles-sass",
-    "theme-bandwidth"
   ],
   "pluginsConfig": {
     "theme-api": {
