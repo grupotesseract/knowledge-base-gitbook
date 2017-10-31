@@ -2,5 +2,6 @@
 
 * [Seja bem-vindo](README.md)
 * [Manifesto Tesseract](manifesto-tesseract.md)
-* [Projetos](projetos.md)
+* [Nossos Projetos](projetos.md)
+* [Como Contribuir](como-contribuir.md)
 
