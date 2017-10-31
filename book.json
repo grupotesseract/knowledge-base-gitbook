@@ -1,15 +1,11 @@
 {
   "plugins": [
-    "-search",
     "alerts",
     "block-align",
     "include-codeblock",
     "styles-sass",
+    "theme-faq"
   ],
   "pluginsConfig": {
-    "theme-api": {
-      "split": true,
-      "theme": "dark"
-    }
   }
 }
