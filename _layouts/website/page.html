@@ -11,26 +11,29 @@
 {% block description %}{{ page.description }}{% endblock %}
 
 {% block page %}
+
+  <!-- Readme -->
   {% if file.path == readme.file.path %}
+    <div class="row">
     {% for part in summary.parts %}
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h3 class="panel-title">
-            <span class="title-secondary">{{ (part.articles.length - 1) if (loop.index == 1) else part.articles.length }} articles</span>
-            {{ part.title }}
-          </h3>
-        </div>
-        <div class="list-group">
+      <div class="col-4">
+        <h4>{{ part.title }}</h4>
+
+        <ul class="list-unstyled">
           {% for article in part.articles %}
             {% if article.path != readme.file.path %}
-              <a href="{{ article.path|resolveFile }}" class="list-group-item">
-                <i class="fa fa-file-o" aria-hidden="true"></i> {{ article.title }}
-              </a>
+              <li>
+                <a href="{{ article.path|resolveFile }}">
+                  <i class="fa fa-file-o" aria-hidden="true"></i> {{ article.title }}
+                </a>
+              </li>
             {% endif %}
           {% endfor %}
-        </div>
+        </ul>
       </div>
     {% endfor %}
+
+  <!-- Other pages -->
   {% else %}
     <div class="panel panel-default">
       <div class="panel-body">
@@ -68,5 +71,6 @@
         </div>
       {% endif %}
     {% endblock %}
+
   {% endif %}
 {% endblock %}
