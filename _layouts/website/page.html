@@ -35,23 +35,26 @@
 
   <!-- Other pages -->
   {% else %}
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <ol class="breadcrumb">
-          <li><a href="{{ basePath }}">{{ "FAQ_TITLE" | t }}</a></li>
-          {% for part in summary.parts %}
-            {% for article in part.articles %}
-              {% if article.path == file.path and part.title %}
-                <li>{{ part.title }}</li>
-              {% endif %}
-            {% endfor %}
-          {% endfor %}
-          <li class="active">{{ page.title }}</li>
-        </ol>
-        <div class="faq-page">
-          {{ page.content | safe }}
-        </div>
-      </div>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="{{ basePath }}">{{ "FAQ_TITLE" | t }}</a>
+      </li>
+
+      {% for part in summary.parts %}
+        {% for article in part.articles %}
+          {% if article.path == file.path and part.title %}
+            <li class="breadcrumb-item">
+              <a href="{{ basePath }}">{{ part.title }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      <li class="breadcrumb-item active">{{ page.title }}</li>
+    </ol>
+
+    <div class="faq-page">
+      {{ page.content | safe }}
     </div>
 
     {% block faq_page_related %}
