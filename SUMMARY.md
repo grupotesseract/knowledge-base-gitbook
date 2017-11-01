@@ -9,8 +9,9 @@
 
 ## Projetos
 
-* [Nossos Projetos](docs/projetos.md)
+* [Nossos Projetos](docs/projetos/projetos.md)
 
 ## Tutoriais
 
-* [Como fazer ScreenCast](docs/how-tos/como-fazer-screencast.md)
+* [Como fazer ScreenCast](docs/tutoriais/como-fazer-screencast.md)
+* [Como utilizar o Tesseract Generator](docs/tutoriais/como-utilizar-o-tesseract-generator.md)

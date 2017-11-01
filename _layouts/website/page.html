@@ -14,24 +14,25 @@
 
   <!-- Readme -->
   {% if file.path == readme.file.path %}
-    <div class="row">
-    {% for part in summary.parts %}
-      <div class="col-4">
-        <h4>{{ part.title }}</h4>
+    <div class="row summary">
+      {% for part in summary.parts %}
+        <div class="col-4">
+          <h4>{{ part.title }}</h4>
 
-        <ul class="list-unstyled">
-          {% for article in part.articles %}
-            {% if article.path != readme.file.path %}
-              <li>
-                <a href="{{ article.path|resolveFile }}">
-                  <i class="fa fa-file-o" aria-hidden="true"></i> {{ article.title }}
-                </a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </div>
-    {% endfor %}
+          <ul class="list-unstyled">
+            {% for article in part.articles %}
+              {% if article.path != readme.file.path %}
+                <li>
+                  <a href="{{ article.path | resolveFile }}">
+                    {{ article.title }}
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
 
   <!-- Other pages -->
   {% else %}
