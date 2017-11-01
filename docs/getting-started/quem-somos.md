@@ -4,10 +4,6 @@ description: Informações sobre os membros do Tesseract.
 
 # Quem Somos?
 
-### Renato Gomes
+#### Vote no Slack se vira fazer essa página
 
-### Jonas
-
-### Mateus
-
-### Thiago Braga
+##### VALEU, FALOW
