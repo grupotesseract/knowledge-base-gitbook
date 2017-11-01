@@ -9,14 +9,14 @@ var gulp       = require('gulp'),
 
 gulp.task('docs-serve', function () {
   run('npm run docs:serve').exec('', function () {
-    browserSync.reload({ stream: true });
+    reload({ stream: true });
   });
 });
 
 // Styles
 gulp.task('styles', function () {
   return gulp.src('src/scss/website.scss')
-    .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+    .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     .pipe(minifycss())
     .pipe(gulp.dest('styles'))
@@ -28,7 +28,7 @@ gulp.task('browser-sync', function () {
   browserSync({
     logPrefix: 'Tesseract KB',
     proxy:     'localhost:4000',
-    files:     ['_book/styles/website.css'],
+    files:     ['styles/website.css'],
     open:      false,
     notify:    false
   });
