@@ -1,0 +1,18 @@
+{
+  "name": "tesseract-kb",
+  "version": "0.0.1",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "2.18.13",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "4.0.0",
+    "gulp-minify-css": "1.2.4",
+    "gulp-plumber": "1.1.0",
+    "gulp-run": "1.7.1",
+    "gulp-sass": "3.1.0"
+  },
+  "scripts": {
+    "docs:serve": "gitbook serve",
+    "docs:build": "gitbook build"
+  }
+}

@@ -1,11 +1,11 @@
 {
   "plugins": [
-    "alerts",
-    "block-align",
-    "include-codeblock",
-    "styles-sass",
-    "theme-faq"
+    "theme-faq",
+    "-fontsettings",
+    "-sharing"
   ],
-  "pluginsConfig": {
-  }
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "title": "Grupo Tesseract | Knowledge Base"
 }

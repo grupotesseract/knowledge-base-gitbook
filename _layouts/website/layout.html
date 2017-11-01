@@ -1,0 +1,84 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+  {{ super() }}
+  <meta name="HandheldFriendly" content="true"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ 'images/apple-touch-icon-precomposed-152.png' | resolveAsset }}">
+  <link rel="shortcut icon" href="{{ 'images/favicon.ico' | resolveAsset }}" type="image/x-icon">
+{% endblock %}
+
+{% block style %}
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css"
+    integrity="sha384-I6JCnqxMbC2DuiHjsoCiLa15NVbKRf8/ooANRLsXD87zD2dVqzlz6Oqjvj470ztk"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="{{ 'style.css' | resolveAsset }}">
+
+  {% for type, style in config.styles %}
+    {% if fileExists(style) and type == "website" %}
+      <link rel="stylesheet" href="{{ style | resolveFile }}">
+    {% endif %}
+  {% endfor %}
+{% endblock %}
+
+{% block body %}
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="{{ basePath }}">
+        <img src="http://res.cloudinary.com/tesseract/image/upload/v1507448078/logo-tesseract-cubo-branco_apeo4d.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        Grupo Tesseract
+      </a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <div class="faq-header bg-dark text-white">
+    <div class="container">
+      {% if file.path == readme.file.path %}
+        {{ page.content | safe }}
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="faq-page-container">
+    {% block search_results %}
+      {% block page %}{% endblock %}
+
+      {% block faq_footer %}
+        <div class="faq-page-footer">
+          <a href="https://www.gitbook.com" target="_blank">{{ "GITBOOK_LINK" | t }}</a> ·
+          <span>Last edit {{ file.mtime | date('MMMM Do YYYY') }}</span>
+        </div>
+      {% endblock %}
+    {% endblock %}
+  </div>
+  {% endblock %}
+
+  {% block javascript %}
+    <script src="{{ 'gitbook.js' | resolveAsset }}"></script>
+    {% for resource in plugins.resources.js %}
+      {% if resource.url %}
+        <script src="{{ resource.url }}"></>
+      {% else %}
+        <script src="{{ resource.path | resolveAsset }}"></script>
+      {% endif %}
+    {% endfor %}
+  <script>
+    (function() {
+      gitbook.page.hasChanged({{ template.getJSContext() | dump | safe }})
+    })();
+  </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+{% endblock %}

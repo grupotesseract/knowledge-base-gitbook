@@ -1,8 +1,1 @@
 ## Como Contribuir
-
-
-
-
-
-
-
