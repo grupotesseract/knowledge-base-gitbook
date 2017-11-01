@@ -1,0 +1,21 @@
+.faq-page-container {
+  margin-top:  0;
+  max-width:   880px;
+  padding-top: 40px;
+
+  .summary {
+    h4 {
+      margin-bottom: 20px;
+
+      &:before {
+        background: url('http://res.cloudinary.com/tesseract/image/upload/c_scale,h_22/v1507448078/logo-tesseract-cubo-preto_fo7kqy.png') 0 0 no-repeat;
+        content:    '';
+        display:    inline-block;
+        position:   relative;
+        top:        2px;
+        width:      30px;
+        height:     22px;
+      }
+    }
+  }
+}
