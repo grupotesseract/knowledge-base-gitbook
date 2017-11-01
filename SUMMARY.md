@@ -1,7 +1,16 @@
 # Summary
 
-* [Seja bem-vindo](README.md)
-* [Como Contribuir](como-contribuir.md)
-* [Nossos Projetos](projetos.md)
-* [Manifesto Tesseract](manifesto-tesseract.md)
-* [Quem Somos?](quem-somos.md)
+## Getting Started
+
+* [Iniciando no Tesseract](docs/getting-started/iniciando-no-tesseract.md)
+* [Manifesto Tesseract](docs/getting-started/manifesto-tesseract.md)
+* [Como Contribuir](docs/getting-started/como-contribuir.md)
+* [Quem Somos?](docs/getting-started/quem-somos.md)
+
+## Projetos
+
+* [Nossos Projetos](docs/projetos.md)
+
+## Tutoriais
+
+* [Como fazer ScreenCast](docs/how-tos/como-fazer-screencast.md)
