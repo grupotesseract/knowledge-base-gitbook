@@ -31,48 +31,29 @@
 {% endblock %}
 
 {% block body %}
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="{{ basePath }}">
-        <img src="http://res.cloudinary.com/tesseract/image/upload/v1507448078/logo-tesseract-cubo-branco_apeo4d.png" width="30" height="30" class="d-inline-block align-top" alt="">
-        Grupo Tesseract
-      </a>
-    </div>
-  </nav>
+  {% include 'website/navbar.html' %}
 
-  <!-- HEADER -->
-  <div class="faq-header bg-dark text-white">
-    <div class="container">
-      {% if file.path == readme.file.path %}
-        {{ page.content | safe }}
-      {% endif %}
-    </div>
-  </div>
+  {% include 'website/header.html' %}
 
   <div class="faq-page-container">
     {% block search_results %}
       {% block page %}{% endblock %}
 
-      {% block faq_footer %}
-        <div class="faq-page-footer">
-          <a href="https://www.gitbook.com" target="_blank">{{ "GITBOOK_LINK" | t }}</a> ·
-          <span>Last edit {{ file.mtime | date('MMMM Do YYYY') }}</span>
-        </div>
-      {% endblock %}
+      {% include 'website/footer.html' %}
     {% endblock %}
   </div>
+
   {% endblock %}
 
   {% block javascript %}
-    <script src="{{ 'gitbook.js' | resolveAsset }}"></script>
-    {% for resource in plugins.resources.js %}
-      {% if resource.url %}
-        <script src="{{ resource.url }}"></>
-      {% else %}
-        <script src="{{ resource.path | resolveAsset }}"></script>
-      {% endif %}
-    {% endfor %}
+  <script src="{{ 'gitbook.js' | resolveAsset }}"></script>
+  {% for resource in plugins.resources.js %}
+    {% if resource.url %}
+      <script src="{{ resource.url }}"></>
+    {% else %}
+      <script src="{{ resource.path | resolveAsset }}"></script>
+    {% endif %}
+  {% endfor %}
   <script>
     (function() {
       gitbook.page.hasChanged({{ template.getJSContext() | dump | safe }})

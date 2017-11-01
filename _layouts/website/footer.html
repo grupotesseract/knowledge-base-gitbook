@@ -1,0 +1,6 @@
+{% block faq_footer %}
+  <div class="faq-page-footer">
+    <a href="https://www.gitbook.com" target="_blank">{{ "GITBOOK_LINK" | t }}</a> ·
+    <span>Last edit {{ file.mtime | date('MMMM Do YYYY') }}</span>
+  </div>
+{% endblock %}

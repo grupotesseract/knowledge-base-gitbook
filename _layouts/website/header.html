@@ -1,0 +1,9 @@
+<div class="faq-header bg-dark text-white">
+  <div class="container">
+    {% if file.path == readme.file.path %}
+      {{ page.content | safe }}
+    {% else %}
+      <h1>{{ page.title }}</h1>
+    {% endif %}
+  </div>
+</div>
