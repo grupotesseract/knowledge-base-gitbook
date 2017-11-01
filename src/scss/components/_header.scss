@@ -1,3 +1,9 @@
 .faq-header {
-  padding: 60px 0 100px;
+  margin-bottom: 0;
+  padding:       60px 0 100px;
+
+  h6 {
+    margin:    0 auto;
+    max-width: 540px;
+  }
 }
