@@ -18,3 +18,6 @@ O [https://stackedit.io](https://stackedit.io "StackEdit") é um editor markdown
 
 Você também pode clonar \[o repositório do KB do Tesseract\]\([https://github.com/grupotesseract/knowledge-base\](https://github.com/grupotesseract/knowledge-base%29\) na sua máquina, editar os arquivos localmente
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE3NTA0NzI2MjhdfQ==
+-->
