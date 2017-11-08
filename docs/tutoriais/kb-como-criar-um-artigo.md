@@ -1,6 +1,6 @@
 # \[KB\] Como criar um artigo
 
-Obrigado pelo seu interesse em contribuir com a base de conhecimento do Tesseract. Você pode contribuir com o KB de algumas formas listadas abaixo.
+Obrigado pelo seu interesse em contribuir com a base de conhecimento do Tesseract. Você pode contribuir com o KB de algumas formas, listadas abaixo.
 
 ## Utilizando o GitBook
 
@@ -8,7 +8,7 @@ Estamos utilizando o GitBook na versão Free para hospedar \(e desenvolver\) o K
 
 Após o login, a página com o Book principal do KB será exibida. Basta clicar em **Edit** como no screenshot abaixo:
 
-![](https://github.com/grupotesseract/knowledge-base/assets/GitBook Tesseract.png)
+![](/assets/GitBook Tesseract.png)
 
 ## Editando na Web com StackEdit
 
@@ -19,5 +19,5 @@ O [https://stackedit.io](https://stackedit.io "StackEdit") é um editor markdown
 Você também pode clonar \[o repositório do KB do Tesseract\]\([https://github.com/grupotesseract/knowledge-base\](https://github.com/grupotesseract/knowledge-base%29\) na sua máquina, editar os arquivos localmente
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTI3NzUwMzRdfQ==
+eyJoaXN0b3J5IjpbLTk1Nzg4MTUyMl19
 -->
