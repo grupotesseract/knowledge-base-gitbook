@@ -4,7 +4,7 @@ Obrigado pelo seu interesse em contribuir com a base de conhecimento do Tesserac
 
 ## Utilizando o GitBook
 
-Estamos utilizando o GitBook na versão Free para hospedar \(e desenvolver\) o Knowledge Base, com isso, ele é limitado à 5 usuários. Se você já possuir acesso ao GitBook, você pode logar com sua conta do Github em [https://www.gitbook.com](https://www.gitbook.com). Caso não possua acesso, você pode realizar o login com a conta de desenvolvimento do Tesseract&lt;sup&gt;1&lt;/sup&gt;.
+Estamos utilizando o GitBook na versão Free para hospedar \(e desenvolver\) o Knowledge Base, com isso, ele é limitado à 5 usuários. Se você já possuir acesso ao GitBook, você pode logar com sua conta do Github em [https://www.gitbook.com](https://www.gitbook.com). Caso não possua acesso, você pode realizar o login com a conta de desenvolvimento do Tesseract.
 
 Após o login, a página com o Book principal do KB será exibida. Basta clicar em **Edit** como no screenshot abaixo:
 
