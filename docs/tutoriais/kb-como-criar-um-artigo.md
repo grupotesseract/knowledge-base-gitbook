@@ -1,4 +1,4 @@
-# \[KB\] Como criar um artigo
+# [KB] Como criar um artigo
 
 Obrigado pelo seu interesse em contribuir com a base de conhecimento do Tesseract. Você pode contribuir com o KB de algumas formas, listadas abaixo.
 
@@ -8,13 +8,15 @@ Estamos utilizando o GitBook na versão Free para hospedar \(e desenvolver\) o K
 
 Após o login, a página com o Book principal do KB será exibida. Basta clicar em **Edit** como no screenshot abaixo:
 
-![](/assets/GitBook Tesseract.png)
+![](/assets/gitbook-tesseract.png)
 
 Recomendo sempre manter aberta uma aba da página de atividades para forçar o update das alterações realizadas. Às vezes o GitBook demora para atualizar o conteúdo salvo. O link é: https://www.gitbook.com/book/grupotesseract/grupo-tesseract/activity
 
 ## Editando na Web com StackEdit
 
-O [StackEdit](https://stackedit.io) é um editor markdown direto no navegador. Ferramenta free, [open-source](https://github.com/benweet/stackedit), que permite editar arquivos do Github, Drive e Dropbox. Para editar os artigos do Tesseract, abra o StackEdit, 
+O StackEdit é um editor markdown direto no navegador. Ferramenta free, [open-source](https://github.com/benweet/stackedit), que permite editar arquivos do Github, Drive e Dropbox. Para editar os artigos do Tesseract, abra o [StackEdit](https://stackedit.io/app), e no canto superior direito, clique no botão com "#".
+
+![](/assets/stackedit-login.png)
 
 
 
