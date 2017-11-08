@@ -14,7 +14,9 @@ Recomendo sempre manter aberta uma aba da página de atividades para forçar o u
 
 ## Editando na Web com StackEdit
 
-O [https://stackedit.io](https://stackedit.io "StackEdit") é um editor markdown direto no navegador. Ferramenta free, \[open-source\]\([https://github.com/benweet/stackedit\](https://github.com/benweet/stackedit%29\), que permite editar arquivos do Github, Drive e Dropbox. Para editar os artigos do Tesseract
+O [StackEdit](https://stackedit.io) é um editor markdown direto no navegador. Ferramenta free, [open-source](https://github.com/benweet/stackedit), que permite editar arquivos do Github, Drive e Dropbox. Para editar os artigos do Tesseract, abra o StackEdit, 
+
+
 
 ## Clonando o repositório
 
