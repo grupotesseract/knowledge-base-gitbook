@@ -12,7 +12,7 @@ Após o login, a página com o Book principal do KB será exibida. Basta clicar 
 
 ## Editando na Web com StackEdit
 
-O \[StackEdit\]\([https://stackedit.io](https://stackedit.io%29\)\) é um editor markdown direto no navegador. Ferramenta free, \[open-source\]\([https://github.com/benweet/stackedit\](https://github.com/benweet/stackedit%29\), que permite editar arquivos do Github, Drive e Dropbox. Para editar os artigos do Tesseract
+O \[StackEdit\]\([https://stackedit.io](https://stackedit.io%29%29\)\) é um editor markdown direto no navegador. Ferramenta free, \[open-source\]\([https://github.com/benweet/stackedit\](https://github.com/benweet/stackedit%29\), que permite editar arquivos do Github, Drive e Dropbox. Para editar os artigos do Tesseract
 
 ## Clonando o repositório
 
