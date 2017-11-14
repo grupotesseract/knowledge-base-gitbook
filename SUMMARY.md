@@ -8,13 +8,13 @@
 * [Como Contribuir](docs/getting-started/como-contribuir.md)
 * [Quem Somos?](docs/getting-started/quem-somos.md)
 
-## Projetos
+## Nosso Workflow
 
-* [Nossos Projetos](docs/projetos/projetos.md)
+* [Metodologia de Orçamento](docs/nosso-workflow/metodologia-de-orcamento.md)
 
 ## Tutoriais
 
 * [Como fazer ScreenCast](docs/tutoriais/como-fazer-screencast.md)
 * [Como utilizar o Tesseract Generator](docs/tutoriais/como-utilizar-o-tesseract-generator.md)
-* [\[KB\] Como criar um artigo](docs/tutoriais/kb-como-criar-um-artigo.md)
+* [[KB] Como criar um artigo](docs/tutoriais/kb-como-criar-um-artigo.md)
 
