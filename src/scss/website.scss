@@ -1,10 +1,15 @@
-// Components
-@import 'components/typography';
-@import 'components/container';
-@import 'components/header';
-@import 'components/navbar';
-@import 'components/footer';
-@import 'components/callout';
+@import
 
-// Pages
-@import 'pages/readme';
+  // Config
+  'config/variables',
+
+  // Components
+  'components/typography',
+  'components/container',
+  'components/header',
+  'components/navbar',
+  'components/footer',
+  'components/callout',
+
+  // Pages
+  'pages/readme';

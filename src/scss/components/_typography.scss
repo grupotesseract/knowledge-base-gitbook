@@ -46,3 +46,11 @@ input,
 select {
   font-family: 'PT Sans', sans-serif;
 }
+
+a {
+  color: $primary;
+
+  &:hover {
+    color: darken($primary, 10%);
+  }
+}

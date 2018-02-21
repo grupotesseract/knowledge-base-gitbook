@@ -4,12 +4,11 @@ var gulp       = require('gulp'),
   autoprefixer = require('gulp-autoprefixer'),
   minifycss    = require('gulp-minify-css'),
   plumber      = require('gulp-plumber'),
-  browserSync  = require('browser-sync'),
-  reload       = browserSync.reload;
+  browserSync  = require('browser-sync');
 
 gulp.task('docs-serve', function () {
   run('npm run docs:serve').exec('', function () {
-    reload({ stream: true });
+    browserSync.reload({ stream: true });
   });
 });
 
@@ -20,7 +19,7 @@ gulp.task('styles', function () {
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     .pipe(minifycss())
     .pipe(gulp.dest('styles'))
-    .pipe(reload({ stream: true }));
+    .pipe(browserSync.reload({ stream: true }));
 });
 
 // BrowserSync
@@ -30,7 +29,7 @@ gulp.task('browser-sync', function () {
     proxy:     'localhost:4000',
     files:     ['styles/website.css'],
     open:      false,
-    notify:    false
+    notify:    false,
   });
 });
 

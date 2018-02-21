@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+
+  ### Node Container ###########################
+  node:
+    build:
+      context: ./docker/node
+    network_mode: host
+    ports:
+      - 4000:4000
+    volumes:
+      - ./:/var/www
+    tty: true

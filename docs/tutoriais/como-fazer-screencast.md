@@ -42,5 +42,5 @@ ffmpeg -ss 12 -t 8 -i output.mp4 \
 
 ## Referências
 
-[FFMPEG TRUE](https://trac.ffmpeg.org/wiki/Capture/Desktop)  
+[FFMPEG TRUE](https://trac.ffmpeg.org/wiki/Capture/Desktop)
 [how-do-i-convert-a-video-to-gif-using-ffmpeg](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality/556031#556031)
