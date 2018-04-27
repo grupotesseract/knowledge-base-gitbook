@@ -27,7 +27,7 @@ gulp.task('browser-sync', function () {
   browserSync({
     logPrefix: 'Tesseract KB',
     proxy:     'localhost:4000',
-    files:     ['styles/website.css'],
+    files:     ['docs/website.css'],
     open:      false,
     notify:    false,
   });

@@ -4,11 +4,10 @@ services:
 
   ### Node Container ###########################
   node:
-    build:
-      context: ./docker/node
-    network_mode: host
+    build: .
     ports:
       - 4000:4000
     volumes:
       - ./:/var/www
+    network_mode: host
     tty: true

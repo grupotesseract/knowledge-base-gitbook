@@ -4,8 +4,9 @@
     "-fontsettings",
     "-sharing"
   ],
+  "root": "docs",
   "styles": {
-    "website": "styles/website.css"
+    "website": "docs/styles/website.css"
   },
   "title": "Grupo Tesseract | Knowledge Base"
 }
